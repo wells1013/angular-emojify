@@ -27,3 +27,5 @@ Use it at a [directive](http://docs.angularjs.org/guide/directive):
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+**NB**: don't forget to run grunt server as `grunt dev` (it will update the `angular-emojify.js` and `angular-emojify.min.js` generated files)
