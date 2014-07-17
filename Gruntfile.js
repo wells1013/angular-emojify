@@ -25,7 +25,10 @@ module.exports = function(grunt) {
                 ' * <%= pkg.description %>\n' +
                 ' * <%= pkg.homepage %>\n' +
                 ' * Licensed <%= pkg.license %>\n' +
-                ' */\n'
+                ' */\n',
+        beautify: {
+          ascii_only: true
+        }
       },
       build: {
         src: 'angular-emojify.js',

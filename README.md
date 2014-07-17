@@ -20,6 +20,15 @@ Use it at a [directive](http://docs.angularjs.org/guide/directive):
 <div ng-bind="unicode" emojify></div>
 ```
 
+> **Note**: if you're uglifying your files (e.g. [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)) take care about unicode characters with the following options
+```js
+options : {
+  beautify : {
+    ascii_only : true
+  }
+}
+```
+
 ## Contributing
 
 1. [Fork it](http://github.com/code/angular-emojify/fork)
